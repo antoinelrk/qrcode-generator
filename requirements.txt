@@ -1,0 +1,5 @@
+qrcode
+pillow
+image
+opencv-python
+numpy
