@@ -4,5 +4,5 @@ import qrcode
 data = input('Action, url, text: ')
 filename = input('filename (without .jpg): ')
 img = qrcode.make(data)
-img.save(filename + '.jpg')
+img.save('storage/' + filename + '.jpg')
 print('Saved as ' + filename + '.jpg')
